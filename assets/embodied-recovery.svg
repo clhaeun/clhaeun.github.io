@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 445" role="img" aria-labelledby="title desc">
+<title id="title">Embodied recovery from changing world state</title><desc id="desc">Schematic illustration of a robot gripper and object, with observation, execution and recovery feedback.</desc>
+<rect width="600" height="445" fill="#f8fafc"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="36" y="46" font-size="19" font-weight="bold" fill="#34455a">Recovery under partial observability</text>
+<text x="36" y="70" font-size="12" fill="#7a8ba0">Execute → observe → reassess → continue</text>
+<rect x="35" y="103" width="530" height="194" rx="4" fill="#eef3f8" stroke="#d8e3ed"/>
+<line x1="59" y1="254" x2="540" y2="254" stroke="#aec0d2" stroke-width="3"/>
+<rect x="222" y="205" width="65" height="49" fill="#a9c4db" stroke="#6e94b5" stroke-width="2" rx="3"/>
+<path d="M399 113 V160" stroke="#617c96" stroke-width="10" stroke-linecap="round"/>
+<path d="M399 160 L369 180" stroke="#617c96" stroke-width="10" stroke-linecap="round"/>
+<path d="M369 180 V213 M424 180 V213" stroke="#617c96" stroke-width="8" stroke-linecap="round"/>
+<line x1="369" y1="180" x2="424" y2="180" stroke="#617c96" stroke-width="8" stroke-linecap="round"/>
+<path d="M287 224 C322 224 328 198 350 198" fill="none" stroke="#729abb" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M343 192 L353 198 L343 204" fill="none" stroke="#729abb" stroke-width="2"/>
+<circle cx="251" cy="166" r="4" fill="#86a8c6"/><path d="M251 166 C252 140 272 132 302 132" fill="none" stroke="#9bb2c8" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="72" y="137" font-size="15" fill="#4b657d">World state</text><text x="72" y="157" font-size="12" fill="#7890a7">may have changed</text>
+<rect x="36" y="335" width="140" height="54" rx="3" fill="#e2edf7" stroke="#c4d8e9"/><text x="106" y="368" font-size="14" text-anchor="middle" fill="#3a617f">Observe state</text>
+<path d="M176 362 H212" stroke="#839bb1" stroke-width="2"/><path d="M205 356 L214 362 L205 368" fill="none" stroke="#839bb1" stroke-width="2"/>
+<rect x="219" y="335" width="157" height="54" rx="3" fill="#e2edf7" stroke="#c4d8e9"/><text x="297" y="368" font-size="14" text-anchor="middle" fill="#3a617f">Assess failure</text>
+<path d="M376 362 H411" stroke="#839bb1" stroke-width="2"/><path d="M404 356 L413 362 L404 368" fill="none" stroke="#839bb1" stroke-width="2"/>
+<rect x="418" y="335" width="146" height="54" rx="3" fill="#d7e6f3" stroke="#b5cce0"/><text x="491" y="357" font-size="14" text-anchor="middle" fill="#3a617f">Repair /</text><text x="491" y="373" font-size="14" text-anchor="middle" fill="#3a617f">continue</text>
+</g></svg>

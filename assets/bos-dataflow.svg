@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 445" role="img" aria-labelledby="title desc">
+<title id="title">VLA inference dataflow</title><desc id="desc">Conceptual overview of image encoder, VLM prefix cache, and action refinement with compute, memory and data movement.</desc>
+<rect width="600" height="445" fill="#f8fafc"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="39" y="47" font-size="19" font-weight="bold" fill="#34455a">VLA inference / dataflow</text>
+<text x="39" y="70" font-size="12" fill="#7a8ba0">Model graph × tensor lifecycle × NPU mapping</text>
+<rect x="39" y="115" width="146" height="92" rx="4" fill="#e9f0f8" stroke="#c6d5e5"/>
+<text x="112" y="148" font-size="16" fill="#2b537e" text-anchor="middle">Observation</text>
+<text x="112" y="171" font-size="12" fill="#637e99" text-anchor="middle">visual features</text>
+<path d="M185 160 H228" stroke="#819bb7" stroke-width="2.5" fill="none"/>
+<path d="M225 153 L235 160 L225 167" stroke="#819bb7" stroke-width="2.5" fill="none"/>
+<rect x="240" y="115" width="140" height="92" rx="4" fill="#e8eef6" stroke="#c6d5e5"/>
+<text x="310" y="148" font-size="16" fill="#2b537e" text-anchor="middle">VLM prefix</text>
+<text x="310" y="171" font-size="12" fill="#637e99" text-anchor="middle">attention / MLP</text>
+<path d="M380 160 H425" stroke="#819bb7" stroke-width="2.5" fill="none"/>
+<path d="M422 153 L432 160 L422 167" stroke="#819bb7" stroke-width="2.5" fill="none"/>
+<rect x="437" y="115" width="124" height="92" rx="4" fill="#dfeaf6" stroke="#b8cde4"/>
+<text x="499" y="148" font-size="16" fill="#2b537e" text-anchor="middle">K / V states</text>
+<text x="499" y="171" font-size="12" fill="#637e99" text-anchor="middle">prefix reuse</text>
+<path d="M499 207 V264 H370" stroke="#698cab" stroke-width="2.5" stroke-dasharray="7 5" fill="none"/>
+<path d="M376 258 L367 264 L376 270" stroke="#698cab" stroke-width="2.5" fill="none"/>
+<rect x="195" y="264" width="175" height="81" rx="4" fill="#d8e7f5" stroke="#b3c9de"/>
+<text x="282" y="296" font-size="16" fill="#2b537e" text-anchor="middle">Action expert</text>
+<text x="282" y="319" font-size="12" fill="#637e99" text-anchor="middle">iterative refinement</text>
+<path d="M195 304 H123 V345 H195" stroke="#819bb7" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+<path d="M185 338 L196 345 L185 351" stroke="#819bb7" stroke-width="2" fill="none"/>
+<line x1="39" x2="560" y1="380" y2="380" stroke="#d9e1e9"/>
+<text x="39" y="408" font-size="13" fill="#526e89">L1 / DRAM</text><circle cx="144" cy="404" r="3" fill="#a6bacd"/>
+<text x="158" y="408" font-size="13" fill="#526e89">sharding</text><circle cx="254" cy="404" r="3" fill="#a6bacd"/>
+<text x="268" y="408" font-size="13" fill="#526e89">compute mapping</text>
+</g></svg>
