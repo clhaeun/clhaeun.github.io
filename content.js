@@ -1,4 +1,3 @@
-// 교수님용 홈페이지 글 · 변경은 큰따옴표 안의 내용만 수정하세요.
 window.PORTFOLIO_CONTENT = {
   "profile": {
     "name": "Chaeun Lee",
