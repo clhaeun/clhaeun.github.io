@@ -25,10 +25,11 @@ window.PORTFOLIO_CONTENT = {
     ],
     "intro": [
       "I am interested in how world models and embodied agents can reason about uncertain world states, explore multiple solutions, and connect reasoning to action.",
-      "My research spans embodied agent recovery, stochastic recursive reasoning, embodied reasoning benchmark design, and VLA inference on NPUs. I am particularly interested in world models and generative policies that enable robots to learn, reason, and act under uncertainty."
+      "My research spans embodied agent, stochastic recursive reasoning, embodied reasoning benchmark design, and VLA inference on NPUs. I am particularly interested in world models and generative policies that enable models to learn, reason, and act under uncertainty."
     ],
     "interests": [
       "World Models",
+      "Generative Models",
       "Embodied AI",
       "Efficient AI Systems"
     ]
