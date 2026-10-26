@@ -6,10 +6,6 @@ window.PORTFOLIO_CONTENT = {
     "email": "jenc@g.skku.edu",
     "links": [
       {
-        "label": "CV",
-        "url": "assets/Chaeun_Lee_CV_for_SNU.pdf"
-      },
-      {
         "label": "GitHub",
         "url": "https://github.com/clhaeun"
       },
